@@ -41,10 +41,10 @@ TODO: Delete this section before publishing your plugin.
 ### Browser
 ```html
 <script src="tweakpane.min.js"></script>
-<script src="tweakpane-plugin-template.min.js"></script>
+<script src="tweakpane-plugin-toolbar.min.js"></script>
 <script>
   const pane = new Tweakpane.Pane();
-  pane.registerPlugin(TweakpaneTemplatePlugin);
+  pane.registerPlugin(TweakpaneToolbarPlugin);
 </script>
 ```
 
@@ -52,10 +52,10 @@ TODO: Delete this section before publishing your plugin.
 ### Package
 ```js
 import {Pane} from 'tweakpane';
-import * as TemplatePlugin from 'tweakpane-plugin-template';
+import * as TweakpaneToolbarPlugin from 'tweakpane-plugin-toolbar';
 
 const pane = new Pane();
-pane.registerPlugin(TemplatePlugin);
+pane.registerPlugin(TweakpaneToolbarPlugin);
 ```
 
 
